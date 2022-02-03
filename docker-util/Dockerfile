@@ -4,6 +4,6 @@ FROM bash:5.1
 
 COPY . ./
 
-RUN ./build.sh
+RUN ./docker-util/build.sh
 
 CMD ["/bin/bash"]
